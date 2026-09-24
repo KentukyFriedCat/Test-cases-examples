@@ -196,3 +196,5 @@
 - **Статус:** FAIL
 - - **Комментарий:** на десктопе страница зависает в течении 25-27 секунд. Нет лимита символов для поисковых запросов.
  
+## Lighthouse DelightRent - Отчет Chrome
+[Lighthouse отчет Delightrent](https://disk.yandex.ru/d/TiGXTyQf_zC9Dg)
