@@ -149,7 +149,8 @@
 2. Нажать Enter либо поиск"
 - **Ожидаемый результат:** Отображается пуская страница поиска, с предложением ввести валидный поисковый запрос. Скрипт не обрабатывается со стороны сервера.
 - **Статус:** FAIL
-- **Фактический результат:** Скрипт не срабатывает, однако поиск по такому запросу выдает один результат чего быть не должно <img width="400" height="300" alt="script" src="https://github.com/user-attachments/assets/58339ec7-508a-440b-9847-9c34c098b757" />
+- **Фактический результат:** Скрипт не срабатывает, однако поиск по такому запросу выдает один результат чего быть не должно
+<img width="400" height="300" alt="script" src="https://github.com/user-attachments/assets/58339ec7-508a-440b-9847-9c34c098b757" />
 
 
 ## 6. Нефункциональные тест-кейсы.
@@ -163,7 +164,7 @@
 - **Ожидаемый результат:** Среднее время отклика не растёт. Утечек памяти нет. Интерфейс не «тормозит».
 - **Статус:** PASS
 - **Комментарий:** Альтернатива запуск коллекции GET запросов через POSTMAN с интервалом в 2000 мс и последующей генерацией отчета в newman. Позже прикреплю отчет newman.
-- **Приложение:** [отчет newman из Postman collection runner](https://disk.yandex.ru/d/35K1bTilg9brnQ)
+- **Приложение:** [отчет newman сгенерированный из Postman collection runner](https://disk.yandex.ru/d/35K1bTilg9brnQ)
 
 ### TC-PERF-002 - Время отклика поиска
 - **Приоритет:** High
@@ -211,7 +212,8 @@
 - **Ожидаемый результат:** Главная страница и список оборудования отображаются на английском языке.
 - **Статус:** FAIL
 - **Фактический результат:** Кнопки меню отображаются на выбранном языке, однако встречаются названия оборудования на русском.
-- <img width="450" height="300" alt="main_en" src="https://github.com/user-attachments/assets/58a1108b-b2e6-4a61-9090-ba4e17a8e58b" />
+- **Приложение:**
+<img width="450" height="300" alt="main_en" src="https://github.com/user-attachments/assets/58a1108b-b2e6-4a61-9090-ba4e17a8e58b" />
 
 ### TC-Local-002 - Перевод страницы контактов
 - **Приоритет:** Medium
@@ -222,37 +224,41 @@
 - **Ожидаемый результат:** Страница контактов отображается на английском языке.
 - **Статус:** FAIL
 - **Фактический результат:** В секции additional information имеется не переведённый текст.
-- <img width="450" height="300" alt="conacts_en" src="https://github.com/user-attachments/assets/1442a2b6-94b0-4a30-8595-1c958585b11b" />
+- **Приложение:**
+<img width="450" height="300" alt="conacts_en" src="https://github.com/user-attachments/assets/1442a2b6-94b0-4a30-8595-1c958585b11b" />
 
 ### TC-Local-003 - Перевод страницы "о компании"
 - **Приоритет:** Medium
 - **Предусловие:** Пользователь на главной странице [Delightrent](https://www.delight.rent/en) и выбран язык english.
 - **Шаги:**
-  1. В нижнем меню (футере) выбрать кнопку about company
+  1. В нижнем меню (футере) выбрать кнопку `about company`
 - **Ожидаемый результат:** Информация о компании отображается на английском языке.
 - **Статус:** FAIL
 - **Фактический результат:** В секции about company пусто, текста нет.
-- <img width="450" height="300" alt="about_en" src="https://github.com/user-attachments/assets/02dfd8ac-6361-47ce-8c04-934af81c07e0" />
+- **Приложение:**
+<img width="450" height="300" alt="about_en" src="https://github.com/user-attachments/assets/02dfd8ac-6361-47ce-8c04-934af81c07e0" />
 
 ### TC-Local-004 - Перевод страницы секонд-хэнд продажа
 - **Приоритет:** Medium
 - **Предусловие:** Пользователь на главной странице [Delightrent](https://www.delight.rent/en) и выбран язык english.
 - **Шаги:**
-  1. В верхнем меню выбрать кнопку second-hand shop
+  1. В верхнем меню выбрать кнопку `second-hand shop`
 - **Ожидаемый результат:** Отображаются б/у товары для продажи или категории товаров на английском языке.
 - **Статус:** FAIL
 - **Фактический результат:** Категории товаров на русском языке.
-- <img width="450" height="300" alt="second-hand_shop" src="https://github.com/user-attachments/assets/a9f84c44-183b-4e54-a9cc-4aa41373112f" />
+**Приложение:**
+<img width="450" height="300" alt="second-hand_shop" src="https://github.com/user-attachments/assets/a9f84c44-183b-4e54-a9cc-4aa41373112f" />
 
-### TC-Local-004 - Перевод страницы субаренды
+### TC-Local-005 - Перевод страницы субаренды
 - **Приоритет:** Medium
 - **Предусловие:** Пользователь на главной странице [Delightrent](https://www.delight.rent/en) и выбран язык english.
 - **Шаги:**
-  1. В верхнем меню выбрать кнопку second-hand shop
+  1. В верхнем меню выбрать кнопку `sublease`
 - **Ожидаемый результат:** Отображается презентация субаренды на английском языке.
 - **Статус:** FAIL
 - **Фактический результат:** Презентация правил субаренды на русском языке.
-- <img width="450" height="300" alt="sublease" src="https://github.com/user-attachments/assets/5cd91188-4b65-49ca-bfee-64eab72427e7" />
+- **Приложение:**
+<img width="450" height="300" alt="sublease" src="https://github.com/user-attachments/assets/5cd91188-4b65-49ca-bfee-64eab72427e7" />
 
 ## Lighthouse DelightRent - Отчет Chrome
 [Lighthouse отчет Delightrent](https://disk.yandex.ru/d/TiGXTyQf_zC9Dg)
