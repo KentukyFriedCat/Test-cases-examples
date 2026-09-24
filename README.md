@@ -224,8 +224,35 @@
 - **Фактический результат:** В секции additional information имеется не переведённый текст.
 - <img width="450" height="300" alt="conacts_en" src="https://github.com/user-attachments/assets/1442a2b6-94b0-4a30-8595-1c958585b11b" />
 
+### TC-Local-003 - Перевод страницы "о компании"
+- **Приоритет:** Medium
+- **Предусловие:** Пользователь на главной странице [Delightrent](https://www.delight.rent/en) и выбран язык english.
+- **Шаги:**
+  1. В нижнем меню (футере) выбрать кнопку about company
+- **Ожидаемый результат:** Информация о компании отображается на английском языке.
+- **Статус:** FAIL
+- **Фактический результат:** В секции about company пусто, текста нет.
+- <img width="450" height="300" alt="about_en" src="https://github.com/user-attachments/assets/02dfd8ac-6361-47ce-8c04-934af81c07e0" />
 
+### TC-Local-004 - Перевод страницы секонд-хэнд продажа
+- **Приоритет:** Medium
+- **Предусловие:** Пользователь на главной странице [Delightrent](https://www.delight.rent/en) и выбран язык english.
+- **Шаги:**
+  1. В верхнем меню выбрать кнопку second-hand shop
+- **Ожидаемый результат:** Отображаются б/у товары для продажи или категории товаров на английском языке.
+- **Статус:** FAIL
+- **Фактический результат:** Категории товаров на русском языке.
+- <img width="450" height="300" alt="second-hand_shop" src="https://github.com/user-attachments/assets/a9f84c44-183b-4e54-a9cc-4aa41373112f" />
 
- 
+### TC-Local-004 - Перевод страницы субаренды
+- **Приоритет:** Medium
+- **Предусловие:** Пользователь на главной странице [Delightrent](https://www.delight.rent/en) и выбран язык english.
+- **Шаги:**
+  1. В верхнем меню выбрать кнопку second-hand shop
+- **Ожидаемый результат:** Отображается презентация субаренды на английском языке.
+- **Статус:** FAIL
+- **Фактический результат:** Презентация правил субаренды на русском языке.
+- <img width="450" height="300" alt="sublease" src="https://github.com/user-attachments/assets/5cd91188-4b65-49ca-bfee-64eab72427e7" />
+
 ## Lighthouse DelightRent - Отчет Chrome
 [Lighthouse отчет Delightrent](https://disk.yandex.ru/d/TiGXTyQf_zC9Dg)
